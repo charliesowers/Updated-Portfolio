@@ -2,40 +2,6 @@ body{
     background-image: url("../images/striped_lens.png")
 }
 
-header{
-    width: 100%;
-    background-color: #ffffff;
-    height: 100px;
-    border-bottom: 2px solid  #cccccc;
-    position: relative;
-}
-
-h1{
-    position: absolute;
-    left: 15%;
-    bottom: 0;
-    background-color: #4aaaa5;
-    color: #ffffff;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    text-align: center;
-    font-size: 24px;
-    padding: 20px;
-    font-weight: bold;
-
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    color: #777777;
-    position: absolute;
-    right: 15%;
-    bottom:0;
-    background-color: #ffffff
-}
-
 a{
     color: #777777;
     text-decoration: none;
@@ -61,8 +27,7 @@ li {
     width: 70%;
     
     position: relative;
-    right: 15%;
-    left: 15%;
+    left: 10px;
     background-color: #ffffff;
     overflow: auto;
 
@@ -122,8 +87,8 @@ span{
 .port-img-container{
     float: left;
     position: relative;
-    width: 300px;
-    margin: 30px 30px 30px 0;
+    width: 45%;
+    margin: 30px 3% 30px 0;
     overflow: auto;
 }
 
@@ -162,4 +127,132 @@ form{
     padding: 6px 12px 6px 12px;
     margin: 10px 0 0 0;
 
+}
+
+@media screen and (min-width: 768px) {
+    
+    header{
+        width: 100%;
+        background-color: #ffffff;
+        height: 64px;
+        border-bottom: 2px solid  #cccccc;
+        position: relative;
+    }
+    
+    h1{
+        position: absolute;
+        left: 10px;
+        bottom: 0;
+        background-color: #4aaaa5;
+        color: #ffffff;
+        font-family: 'Georgia', Times, Times New Roman, serif;
+        text-align: center;
+        font-size: 24px;
+        padding: 20px;
+        font-weight: bold;
+    
+    }
+    
+    ul {
+        list-style-type: none;
+        margin: 0 0 16px 0;
+        padding: 0;
+        overflow: hidden;
+        color: #777777;
+        position: absolute;
+        right: 10px;
+        bottom:0;
+        background-color: #ffffff
+    }
+}
+
+@media screen and (min-width: 640px) and (max-width: 768px) {
+    
+    .main{
+        width: 95%;
+        right: 10px;
+        left: 10px;
+    }
+
+    header{
+        width: 100%;
+        background-color: #ffffff;
+        height: 64px;
+        border-bottom: 2px solid  #cccccc;
+        position: relative;
+    }
+    
+    h1{
+        position: absolute;
+        left: 10px;
+        bottom: 0;
+        background-color: #4aaaa5;
+        color: #ffffff;
+        font-family: 'Georgia', Times, Times New Roman, serif;
+        text-align: center;
+        font-size: 24px;
+        padding: 20px;
+        font-weight: bold;
+    
+    }
+    
+    ul {
+        list-style-type: none;
+        margin: 0 0 16px 0;
+        padding: 0;
+        overflow: hidden;
+        color: #777777;
+        position: absolute;
+        right: 10px;
+        bottom:0;
+        background-color: #ffffff;
+    }
+}
+
+@media screen and (max-width: 640px) {
+
+    header{
+        width: 100%;
+        background-color: #ffffff;
+        border-bottom: 2px solid  #cccccc;
+        height: 128px;
+    }
+    
+    h1{
+        background-color: #4aaaa5;
+        color: #ffffff;
+        font-family: 'Georgia', Times, Times New Roman, serif;
+        text-align: center;
+        font-size: 24px;
+        padding: 20px 0 20px 0;
+        font-weight: bold;
+        width: 100%;
+        position: relative;
+        top: 0;
+    
+    }
+    
+    ul {
+        list-style-type: none;
+        color: #777777;
+        background-color: #ffffff;
+        height:24px;
+        width: 206px;
+        margin: 0 auto;
+    }
+
+    #first-menu-link{
+        padding: 0 12px 0 0;
+
+    }
+
+    .main{
+        width: 95%;
+        right: 10px;
+        left: 10px;
+    }
+
+    .port-img-container{
+        width:90%;
+    }
 }
