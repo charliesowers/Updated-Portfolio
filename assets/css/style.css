@@ -164,6 +164,10 @@ form{
         bottom:0;
         background-color: #ffffff
     }
+
+    #index-image{
+        width: 300px;
+    }
 }
 
 @media screen and (min-width: 640px) and (max-width: 768px) {
@@ -206,6 +210,10 @@ form{
         right: 10px;
         bottom:0;
         background-color: #ffffff;
+    }
+
+    #index-image{
+        width: 200px;
     }
 }
 
@@ -250,6 +258,10 @@ form{
         width: 95%;
         right: 10px;
         left: 10px;
+    }
+
+    #index-image{
+        width: 100%;
     }
 
     .port-img-container{
